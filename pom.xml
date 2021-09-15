@@ -8,6 +8,10 @@
     <artifactId>promise</artifactId>
     <version>1.0.0</version>
 
+    <scm>
+        <url>https://github.com/showcodes-cn/promise</url>
+    </scm>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
