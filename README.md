@@ -4,7 +4,6 @@ github: https://github.com/showcodes-cn/promise
 ![Coverage](.github/badges/jacoco.svg)
 ![Branches](.github/badges/branches.svg)
 [![Java CI with Maven](https://github.com/showcodes-cn/promise/actions/workflows/maven.yml/badge.svg)](https://github.com/showcodes-cn/promise/actions/workflows/maven.yml)
-[![Java CI with Maven](https://github.com/showcodes-cn/promise/actions/workflows/maven.yml/badge.svg?event=status)](https://github.com/showcodes-cn/promise/actions/workflows/maven.yml)
 # usage
 ```aidl
 <dependency>
