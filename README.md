@@ -1,6 +1,13 @@
 Java implementation of Promise A+
 
+github: https://github.com/showcodes-cn/promise
+
 # usage
+```aidl
+<dependency>
+    <groupId></groupId>
+</dependency>
+```
 
 ## basic
 
