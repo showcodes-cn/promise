@@ -39,9 +39,3 @@ jobs:
         default_author: github_actions
         message: 'commit badge'
         add: '*.svg'
-    - name: Upload Jacoco
-      uses: actions/upload-artifact@v2
-      with:
-        name: jacoco-report
-        path: target/site/jacoco/
-

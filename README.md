@@ -1,13 +1,21 @@
 Java implementation of Promise A+
 
 github: https://github.com/showcodes-cn/promise
-![Coverage](.github/badges/jacoco.svg)
-![Branches](.github/badges/branches.svg)
-[![Java CI with Maven](https://github.com/showcodes-cn/promise/actions/workflows/maven.yml/badge.svg)](https://github.com/showcodes-cn/promise/actions/workflows/maven.yml)
+
+|  | Status |
+| :--- | :--- |
+| __Build__ | [![build](https://github.com/showcodes-cn/promise/actions/workflows/maven.yml/badge.svg)](https://github.com/showocdes-cn/promise/actions/workflows/maven.yml) |
+| __Code QL__ | ![CodeQL](https://github.com/showcodes-cn/promise/actions/workflows/codeql-analysis.yml/badge.svg) |
+| __Test Coverage__ | ![Coverage](.github/badges/jacoco.svg) ![Branches](.github/badges/branches.svg)|
+
+
+
 # usage
-```aidl
+```xml
 <dependency>
-    <groupId></groupId>
+    <groupId>showcodes.cn</groupId>
+    <artifactId>promise</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 
