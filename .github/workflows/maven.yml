@@ -29,4 +29,13 @@ jobs:
       with:
         generate-branches-badge: true
         jacoco-csv-file: target/site/jacoco/jacoco.csv
+    - name: Log coverage percentage
+      run: |
+        echo "coverage = ${{ steps.jacoco.outputs.coverage }}"
+        echo "branch coverage = ${{ steps.jacoco.outputs.branches }}"
+    - name: Upload Jacoco
+      uses: actions/upload-artifact@v2
+      with:
+        name: jacoco-report
+        path: target/site/jacoco/
 
