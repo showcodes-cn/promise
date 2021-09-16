@@ -1,6 +1,8 @@
 Java implementation of Promise A+
 
 github: https://github.com/showcodes-cn/promise
+![Coverage](.github/badges/jacoco.svg)
+![Branches](.github/badges/branches.svg)
 
 # usage
 ```aidl
