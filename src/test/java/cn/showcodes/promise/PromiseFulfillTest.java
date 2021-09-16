@@ -152,5 +152,12 @@ public class PromiseFulfillTest extends PromiseTestbase{
         Promise.reject("fail").then(v -> v, (e) -> {
             Assert.assertEquals("fail", e);
         });
+
+        try {
+            ((DefaultPromise) p).andThen(new DefaultPromise(), new DefaultPromise<>());
+            Assert.assertTrue(false);
+        } catch (IllegalStateException e) {
+            Assert.assertTrue(true);
+        }
     }
 }
