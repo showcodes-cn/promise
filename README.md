@@ -13,9 +13,9 @@ github: https://github.com/showcodes-cn/promise
 # usage
 ```xml
 <dependency>
-    <groupId>showcodes.cn</groupId>
+    <groupId>cn.showcodes</groupId>
     <artifactId>promise</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
